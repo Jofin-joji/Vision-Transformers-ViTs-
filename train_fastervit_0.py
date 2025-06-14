@@ -58,7 +58,7 @@ class TripletDataset(Dataset):
 
     def __getitem__(self, index):
         anchor_img_path, anchor_label = self.dataset.samples[index]
-        anchor_img = self.dataset.loader(anchor_img_path) # Load image using ImageFolder's loader
+        anchor_img = self.dataset.loader(anchor_img_path) 
         if self.dataset.transform is not None:
             anchor_img = self.dataset.transform(anchor_img) # Apply transform
 
