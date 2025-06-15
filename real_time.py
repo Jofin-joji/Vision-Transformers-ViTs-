@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torchvision import transforms
 from PIL import Image
 import numpy as np
-from fastervit import create_model # Your FasterViT model creation function
+from fastervit import create_model
 from collections import defaultdict, deque
 import time
 
