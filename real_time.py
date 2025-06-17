@@ -11,7 +11,7 @@ import time
 
 # --- Face Detector Choice ---
 USE_MTCNN = False # <<< SET TO TRUE IF YOU INSTALL AND WANT TO USE MTCNN
-                  # pip install facenet-pytorch
+                  
 if USE_MTCNN:
     try:
         from facenet_pytorch import MTCNN
