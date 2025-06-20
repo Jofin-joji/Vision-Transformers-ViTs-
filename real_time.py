@@ -71,7 +71,7 @@ RECOGNITION_HISTORY_SIZE = 5  # Number of past frames to consider for smoothing
 CONFIDENCE_STABILITY_THRESHOLD = 3 # How many consecutive same predictions to be confident
 
 # To store history for each tracked face (simplified tracking by bbox)
-face_recognition_histories = {} # Key: face_id (e.g., from a tracker, or simplified for now)
+face_recognition_histories = {} 
 next_face_id = 0
 
 
